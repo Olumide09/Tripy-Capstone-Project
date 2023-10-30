@@ -200,3 +200,9 @@ a {
   max-width: 70%;
   font-size: 2em;
 }
+
+#get-started {
+  width: 150px;
+  height: 70px;
+  border-radius: 5px;
+}

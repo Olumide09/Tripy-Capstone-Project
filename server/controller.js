@@ -29,9 +29,21 @@ module.exports = {
 
         places.push(newPlace)
         upcomingPlaceID = upcomingPlaceID + 1
+        res.status(200).send(places)
     },
 
     updatePlace: (req, res) => {
         console.log("lemme cook")
+        let index = places.findIndex(place => place.id === +req.params.id)
+
+        if (type === 'minus' && places[index].budget > 0) {
+            places[index].budget -= 1
+            res.status(200).send(places)
+        } else if (type === 'plus') {
+            places[index].budget += 1
+            res.status(200).send(places)
+        } else {
+            res.status(400).send('invalid budget syntax')
+        }
     }
 }
