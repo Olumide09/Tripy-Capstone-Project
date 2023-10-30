@@ -1,0 +1,202 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  background-color: #8bdf84;
+  text-align: center;
+  color: white;
+  display: flex;
+ align-items: center;
+ justify-content: space-between;
+}
+
+
+
+img {
+  height: 125px;
+  width: 125px;
+}
+
+footer {
+  background-color: #8bdf84;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  text-align: center;
+}
+
+.landscape {
+  padding-top: 0px;
+  height: 70%;
+  width: 100%;
+}
+
+.owner-name {
+  text-align: center;
+}
+
+form {
+  width: 350px;
+  height: 350px;
+  background-color: #92df8b;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 30px;
+  border-radius: 10px;
+}
+
+button {
+  background-color: #7bb781;
+  width: 75px;
+  height: 25px;
+  color: black;
+  border: none;
+  margin: 5px;
+  border-radius: 40px;
+  font-weight: bold;
+}
+
+button:hover {
+  background-color: whitesmoke;
+}
+
+.place-card {
+  background-color: #a3ee97;
+  width: 550px;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 12px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.btns-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  margin: 5px;
+}
+
+.btns-container > button {
+  width: 20px;
+}
+
+.place-budget {
+  font-size: 15px;
+  margin: 5px 0;
+  border-radius: 10px;
+}
+
+.place-cover-image {
+  width: 550px;
+  height: 300px;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+}
+
+
+input[type='text'] {
+  width: 85%;
+  height: 30px;
+  border: none;
+  border-bottom: 2px solid #232323;
+  color: #232323;
+  background-color: snow;
+}
+
+
+#budget-container {
+  width: 85%;
+}
+
+/* #radio-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+} */
+
+#place-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.place-date {
+  font-size: 18px;
+  margin: 5px 0;
+  border-radius: 10px;
+}
+
+.place-desc {
+  font-size: 15px;
+  margin: 5px 0;
+  border-radius: 5px;
+}
+
+/* .heading {
+  height: 80px; 
+  display: flex; 
+  align-items: center;
+  color: rgb(255, 255, 255);
+  padding-left: 50px;
+} */
+
+
+div {
+  position: relative;
+}
+
+.page-text {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+
+nav {
+  gap: 8px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+@media (max-width: 750px) {
+
+}
+
+
+.main-div {
+  background-image:url("./images/image for cap idea.jpg") ;
+  height: 500px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.banner-text {
+  max-width: 70%;
+  font-size: 2em;
+}

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
+    <link rel="shortcut icon" href="./images/Tripy.png" type="image/x-icon">
+    <title>Journal</title>
+  </head>
+
+  <body>
+    <header>
+      <img src="./images/Tripy.png" alt="Tripy logo" a href="./home.html" />
+
+     
+
+      <div class="heading">
+        <h2>Trip Journal Viewer</h2>
+      </div>
+
+      <nav>
+        <a href="./home.html">Home</a>
+        <a href="./journal.html">Journal</a>
+      </nav>
+    </header>
+    <main>
+      <form>
+        <input
+          type="text"
+          id="name"
+          placeholder="What is the name of the place you'd like to visit"
+        />
+
+        <input type="text" id="budget" placeholder="Estimate your budget" />
+
+        <input type="text" id="img" placeholder="Paste an image URL" />
+
+        <input type="date" id="date"/>
+
+        <textarea
+            id="desc"
+          rows="6"
+          type="text"
+          placeholder="Description of Place"
+        ></textarea>
+
+        <button>Submit</button>
+      </form>
+
+      <section id="place-container"></section>
+
+
+    </main>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="./journal.js"></script>
+  </body>
+</html>
