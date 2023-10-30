@@ -33,7 +33,7 @@ module.exports = {
     },
 
     updatePlace: (req, res) => {
-        console.log("lemme cook")
+        const {type} = req.body
         let index = places.findIndex(place => place.id === +req.params.id)
 
         if (type === 'minus' && places[index].budget > 0) {
