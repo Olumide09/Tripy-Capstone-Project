@@ -53,7 +53,7 @@ function createPlaceCard(place) {
     placeCard.innerHTML = `<img alt = 'place cover image' src=${place.imageURL} class="place-cover-image"/>
    <p class="placeName">${place.placeName}</p>
    <div class="btns-container">
-        <button onclick="updatePlace(${place.id}, 'minus)">-</button>
+        <button onclick="updatePlace(${place.id}, 'minus')">-</button>
         <p class="place-budget">$${place.budget}</p>
         <button onclick="updatePlace(${place.id}, 'plus')">+</button>
    </div>
