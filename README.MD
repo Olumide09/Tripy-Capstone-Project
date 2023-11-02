@@ -6,7 +6,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/Olumide09/Tripy-Capstone-Project/blob/main/public/images/Tripy.png">
-    <img src="images/Tripy.png" alt="Logo" width="80" height="80">
+    <img src="https://github.com/Olumide09/Tripy-Capstone-Project/blob/main/public/images/Tripy.png" alt="Logo" width="80" height="80">
   </a>
 
 ## Table of contents
