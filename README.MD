@@ -6,7 +6,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/Olumide09/Tripy-Capstone-Project/blob/main/public/images/Tripy.png">
-    <img src="https://github.com/Olumide09/Tripy-Capstone-Project/blob/main/public/images/Tripy.png" alt="Logo" width="80" height="80">
+    <img src="https://github.com/Olumide09/Tripy-Capstone-Project/blob/main/public/images/Tripy.png" alt="Logo" width="100" height="100">
   </a>
 
 ## Table of contents
@@ -71,7 +71,10 @@ $ nodemon server/server.js
 ```
 
 
+# Screenshot
 
+<img src="https://github.com/Olumide09/Tripy-Capstone-Project/blob/main/public/images/home-page.png" width="100%">
+<img src="https://github.com/Olumide09/Tripy-Capstone-Project/blob/main/public/images/Journal-page.png" width="100%">
 
 
 
